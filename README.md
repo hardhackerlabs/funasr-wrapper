@@ -21,3 +21,9 @@ pip3 install -U modelscope
 ```
 ./main_restore_punct.sh ./example/input.json ./example/ouput.json
 ```
+
+测试转录：
+
+```
+./main_transcribe.sh ./example/早咖啡.m4a ./example/out.json 生动早咖啡
+```
