@@ -23,7 +23,7 @@ def main():
     if not isinstance(data, list):
         raise ValueError("The input JSON file must contain a list.")
     
-    model = AutoModel(model="ct-punc")
+    model = AutoModel(model="ct-punc", device="cpu", ncpu=4)
     results = []
     for text in data:
         text = process_sentence(model, text)
