@@ -1,0 +1,14 @@
+# Exclude Git files
+**/.git
+**/.github
+**/.gitignore
+
+# Exclude Python cache files
+__pycache__
+.mypy_cache
+.pytest_cache
+.ruff_cache
+
+example
+myenv
+FunASR
